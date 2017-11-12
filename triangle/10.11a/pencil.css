@@ -1,15 +1,29 @@
 .cell {
-  height: 100vh;
+  height: 200vh;
   background: repeating-linear-gradient(to top, black 0px, black 1px, transparent 0px, transparent 25px), repeating-linear-gradient(to right, black 0, black 1px, transparent 1px, transparent 25px);
 }
 .pen {
   width: 50px;
   height: 200px;
   background: blue;
-  background: radial-gradient(aqua, blue);
+  background: linear-gradient(to right, steelblue 0%, steelblue 14.29%, dodgerblue 14.29%, dodgerblue 28.58%, skyblue 28.58%, skyblue 42.87%, lightskyblue 42.87%, lightskyblue 57.16%,  skyblue 57.16%, skyblue 71.45%, dodgerblue 71.45%, dodgerblue 85.74%, steelblue 85.74%, steelblue 100%);
+  
 }
 .triangle {
    border-top: 50px solid black;
+   border-left: 25px solid transparent; 
+   border-right: 25px solid transparent; 
+   width: 0; 
+   height: 0;
+}
+.pen2 {
+  width: 50px;
+  height: 200px;
+  background: green;
+  background: linear-gradient(green, limegreen, lawngreen, yellowgreen, lawngreen, limegreen, green);
+}  
+.triangle1 {
+    border-top: 50px solid gold;
    border-left: 25px solid transparent; 
    border-right: 25px solid transparent; 
    width: 0; 
