@@ -1,0 +1,28 @@
+.table {
+    border-collapse: collapse;
+    float: left;
+}
+.td {
+    border: solid 1px silver;
+    width: 50px;
+    height: 50px;
+    background: white;
+}
+.td2 {
+    border: solid 1px black;
+    width: 50px;
+    height: 50px;
+    background: black;
+}
+.table2 {
+    border-collapse: collapse;
+    float: left;
+}
+.table3 {
+    border-collapse: collapse;
+    float: left;
+}
+.table4 {
+    border-collapse: collapse;
+    float: left;
+}
