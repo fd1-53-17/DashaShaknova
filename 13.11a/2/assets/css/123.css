@@ -1,0 +1,13 @@
+.row >div {
+    display: inline-block;
+}
+.row {
+    clear:left;
+    width: 30px;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
