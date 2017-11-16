@@ -1,0 +1,123 @@
+.header {
+    display: block;
+    width: 549px;
+    height: 72px;
+    padding-top: 12px
+}
+.main {
+    display: block;
+    width: 549px;
+    height: 410px;
+}
+.aside {
+    display: block;
+    width: 130px;
+    height: 405px;
+    float: left;
+}
+.content {
+    display: inline-block;
+    width: 419px;
+    height: 410px;
+    float: right;
+}
+.one {
+    background: grey;
+    width: 59px;
+    height: 52px;
+    margin-left: 36px;
+    margin-top: 12px;
+}
+.two {
+    background: grey;
+    width: 138px;
+    height: 52px;
+    margin-left: 108px;
+    margin-top: -52px;
+}
+.three {
+    background: grey;
+    width: 256px;
+    height: 52px;
+    margin-left: 259px;
+    margin-top: -52px;
+}
+.four {
+    background: grey;
+    width: 90px;
+    height: 162px;
+    margin-left: 36px;
+    
+}
+.seven {
+    background: grey;
+    width: 90px;
+    height: 66px;
+    margin-left: 36px;
+    margin-top: 172px;
+}
+.five {
+    background: silver;
+    width: 376px;
+    height: 104px;
+    margin-left: 7px;
+    float: left;
+}
+.ul {
+    float: left;
+    padding: 0px;
+    list-style-type: none;
+}
+.li {
+    background: silver;
+    display: inline-block;
+    width: 67px;
+    height: 74px;
+    margin: 0px 0px 15px 7px;
+}
+.eight {
+    background: silver;
+    width: 182px;
+    height: 100px;
+    margin-left: px;
+    margin-top: 300px
+}
+.nine {
+    background: silver;
+    width: 189px;
+    height: 100px;
+    margin-left: 192px;
+    margin-top: -100px
+}
+.footer {
+    display: block;
+    width: 549px;
+    height: 110px;
+}
+.ten {
+    background: grey;
+    width: 136px;
+    height: 100px;
+    margin-left: 36px;
+}
+.eleven {
+    background: grey;
+    width: 149px;
+    height: 100px;
+    margin-left: 198px;
+    margin-top: -100px;
+}
+.twelve {
+    background: grey;
+    width: 152px;
+    height: 40px;
+    margin-left: 360px;
+    margin-top: -100px;
+}
+.thirteen {
+    background: grey;
+    width: 152px;
+    height: 40px;
+    margin-left: 360px;
+    margin-top: 19px;
+}
