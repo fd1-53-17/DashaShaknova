@@ -1,0 +1,154 @@
+.wrapper {
+    position: relative;
+    width: 549px;
+    height: 650px;
+    
+}
+.header {
+    display: block;
+    width: 549px;
+    height: 72px;
+    padding-top: 12px;
+    position: relative;
+}
+.main {
+    display: block;
+    width: 549px;
+    height: 410px;
+    position: relative;
+}
+.aside {
+    display: block;
+    width: 130px;
+    height: 410px;
+    float: left;
+    position: absolute;
+}
+.article {
+    display: inline-block;
+    width: 419px;
+    height: 410px;
+    top: 0px;
+    padding: 0px 135px 0px 135px;
+    position: static;
+    
+}
+.one {
+    background: grey;
+    width: 59px;
+    height: 52px;
+    margin-left: 36px;
+    margin-top: 12px;
+    position: absolute;
+    top: -5px;
+}
+.two {
+    background: grey;
+    width: 138px;
+    height: 52px;
+    margin-left: 108px;
+    margin-top: -52px;
+    position: absolute;
+    top: 60px
+}
+.three {
+    background: grey;
+    width: 256px;
+    height: 52px;
+    margin-left: 259px;
+    margin-top: -52px;
+    position: absolute;
+    top: 60px;
+}
+.four {
+    background: grey;
+    width: 90px;
+    height: 162px;
+    margin-left: 36px;
+    position: static;
+    
+    
+}
+.seven {
+    background: grey;
+    width: 90px;
+    height: 66px;
+    left: 36px;
+    position: absolute;
+    bottom: 0px;
+}
+.five {
+    background: silver;
+    width: 376px;
+    height: 104px;
+    margin-left: 7px;
+    float: left;
+    position: absolute;
+}
+.ul {
+    float: left;
+    padding-top: 100px;
+    padding-left: 0px;
+    list-style-type: none;
+    position: static;
+}
+.li {
+    background: silver;
+    display: inline-block;
+    width: 67px;
+    height: 74px;
+    margin: 0px 0px 15px 7px;
+}
+.eight {
+    background: silver;
+    width: 182px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+.nine {
+    background: silver;
+    width: 189px;
+    height: 100px;
+    right: 30px;
+    bottom: 0px;
+    position: absolute;
+}
+.footer {
+    display: block;
+    width: 549px;
+    height: 110px;
+    position: relative;
+}
+.ten {
+    background: grey;
+    width: 136px;
+    height: 90px;
+    left: 36px;
+    position: absolute;
+    bottom: 0px;
+}
+.eleven {
+    background: grey;
+    width: 149px;
+    height: 90px;
+    left: 198px;
+    position: absolute;
+    bottom: 0px
+}
+.twelve {
+    background: grey;
+    width: 152px;
+    height: 40px;
+    left: 360px;
+    position: absolute;
+    bottom: 50px;
+}
+.thirteen {
+    background: grey;
+    width: 152px;
+    height: 40px;
+    left: 360px;
+    position: absolute;
+    bottom: 0px;
+}
