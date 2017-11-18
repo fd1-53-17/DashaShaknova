@@ -1,0 +1,90 @@
+header {
+    width: 800px;
+    height: 47px;
+    background-color: skyblue;
+    border-collapse: collapse;
+}
+.h1 {
+    color:blue;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px
+}
+main {
+    width: 800px;
+    height: 337px;
+    border-collapse: collapse;
+    display: inline-block;
+}
+.aside {
+    width: 199px;
+    height: 325px;
+    background-color: gold;
+    float: left;
+    font-size: larger;
+    
+}
+.h2 {
+    font-size: 25px;
+    margin-top: 38px;
+}
+.article {
+    width: 601px;
+    height: 325px;
+    float: right;
+    display: block;
+}
+.ul {
+   margin-left: -20px;
+}
+.h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.img {
+    background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/football.png');
+    background-repeat: no-repeat;
+    width: 170px ;
+    height: 120px;
+    background-position: -210px -100px;
+    float: left;
+    clear: right;
+    margin: 0px 27px 0px 27px;
+    
+}
+.p {
+    font-size: medium;
+    margin-left: 23px;
+}
+.table {
+    border-collapse: collapse;
+}
+
+.img2 {
+    background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/football.png');
+    background-repeat: repeat-y;
+    width: 50px;
+    height:50px;
+    background-position: -705px -45px;
+    opacity: 0.5;
+    float: right;
+    margin-top: -305px;
+    margin-left: 550px;
+}
+footer {
+    width: 800px;
+    height: 65px;
+    background-color: skyblue;
+    margin-top: -43px;
+   
+}
+.h4 {
+    color:blue;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    
+}
