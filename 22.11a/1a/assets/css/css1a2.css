@@ -1,0 +1,22 @@
+div {
+    s
+.two {
+    
+    width: 10%;
+    height: 10%;
+    background-color: silver;
+    margin-top: -35px;
+    margin-left: 120px;
+   
+}
+.info {
+     width: 50%;
+    height: 50%;
+    overflow: auto;
+    background-color: silver;
+    white-space: nowrap;
+}
+.three {
+     width: 3%;
+    height: 3%;
+}
