@@ -1,8 +1,27 @@
+.one {
+   
+    background-color: #E6E6E6;
+ }
 div {
-    width: 50%;
-    height: 10%;
-    background-color: lightgray;
+    background-color: #E6E6E6;
 }
-p {
-    
+.two {
+    color: green;
+}
+.three {
+    color: red;
+}
+.four {
+    color: blue;
+}
+
+.five {
+    color: Gray;
+}
+.div1 {
+     overflow: auto;
+    white-space: nowrap;
+     background-color: #E6E6E6;
+     width: 60%;
+    height: 20%;
 }

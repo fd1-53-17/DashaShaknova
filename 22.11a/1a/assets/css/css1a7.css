@@ -1,0 +1,21 @@
+body {
+    width: 500px;
+    height: 90px;
+}
+
+.red {
+    color: red;
+    font-weight: 1000;
+    font-size: 20px;
+    
+}
+
+div {
+    width: 140px;
+     height: 60px;
+     border: dashed 1px red;
+     margin-left: 350px;
+     margin-top: -75px;
+     border-radius: 10px;
+     
+}

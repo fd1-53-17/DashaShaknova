@@ -1,5 +1,9 @@
 div {
-    s
+    background-color: lightgrey;
+}
+span {
+    background-color: lightgray;
+}
 .two {
     
     width: 10%;
@@ -10,8 +14,8 @@ div {
    
 }
 .info {
-     width: 50%;
-    height: 50%;
+     width: 60%;
+    height: 60%;
     overflow: auto;
     background-color: silver;
     white-space: nowrap;
