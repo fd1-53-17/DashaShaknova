@@ -1,16 +1,20 @@
 .one {
-   
+
     background-color: #E6E6E6;
- }
+}
+
 div {
     background-color: #E6E6E6;
 }
+
 .two {
     color: green;
 }
+
 .three {
     color: red;
 }
+
 .four {
     color: blue;
 }
@@ -18,10 +22,11 @@ div {
 .five {
     color: Gray;
 }
+
 .div1 {
-     overflow: auto;
+    overflow: auto;
     white-space: nowrap;
-     background-color: #E6E6E6;
-     width: 60%;
+    background-color: #E6E6E6;
+    width: 60%;
     height: 20%;
 }
