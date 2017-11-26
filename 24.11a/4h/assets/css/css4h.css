@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+.div {
+    position: absolute;
+    border: solid 1px grey;
+    width: 100px;
+    height: 40px;
+    background-color: grey;
+    margin: 40px;
+    
+}
+.sword {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 130px;
+    top: 69px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px 10px white, 0 0 5px 15px red;
+}
+body:hover .sword{
+   width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 130px;
+    top: 61px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px 10px white, 0 0 5px 15px red;
+}
+.z {
+    z-index: 20;
+}
+.z1 {
+     z-index: 10;
+}
+body>div {
+    position: absolute;
+    transition: all 2s ease ;
+}
