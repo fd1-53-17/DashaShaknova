@@ -1,0 +1,152 @@
+body {
+    width: 800px;
+    height: 450px;
+}
+
+header {
+    width: 800px;
+    height: 47px;
+    background-color: skyblue;
+    border-collapse: collapse;
+}
+
+.h1 {
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+main {
+    width: 800px;
+    height: 337px;
+    border-collapse: collapse;
+    display: inline-block;
+}
+
+.aside {
+    width: 199px;
+    height: 325px;
+    background-color: gold;
+    float: left;
+    font-size: large;
+
+}
+
+.h2 {
+    font-size: 25px;
+    margin-top: 38px;
+}
+
+.article {
+    width: 601px;
+    height: 325px;
+    float: right;
+    display: block;
+    left: 207px;
+}
+
+.ul {
+    margin-left: -20px;
+}
+
+.h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.img {
+    background-image: url('assets/img/foto.jpg');
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 120px;
+    float: left;
+    margin: 0px 27px 0px 27px;
+
+}
+
+.p {
+    font-size: medium;
+    margin-left: 23px;
+}
+
+.img2 {
+    background: url('assets/img/football.jpg');
+    background-repeat: repeat-y;
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    float: right;
+
+}
+
+footer {
+    width: 800px;
+    height: 65px;
+    background-color: skyblue;
+    margin-top: -43px;
+
+}
+
+.h4 {
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        width: 320px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body>header {
+        width: 320px;
+        position: absolute;
+    }
+    .h1 {
+        text-align: center;
+        padding-top: 0px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body>main>.article {
+        width: 320px;
+        position: absolute;
+        left: 0px;
+        float: left;
+        top: 60px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body>main>.aside {
+        width: 320px;
+        margin-top: 525px;
+        position: absolute;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body>footer {
+        width: 320px;
+        position: absolute;
+        top: 940px;
+    }
+    .h4 {
+        font-size: 16px;
+        padding: 0px;
+    }
+}
