@@ -35,7 +35,7 @@ nav>ul {
     
   }
   nav {
-    height: 50px;
+    height: 20vh;
      background-color: #0fd;
   }
 }
@@ -49,7 +49,7 @@ nav>ul {
      
   }
   nav {
-    height: 100px;
+    height: 20vh;
     background-color: #808000;
   }
 }
