@@ -46,6 +46,7 @@ label {
     top: 4%;
     left: 4%;
     border-radius: 30%;
+    -webkit-box-shadow: inset 2px 2px 2px 2px #F4945D, 0px 0px 0px 4px wheat;
     box-shadow: inset 2px 2px 2px 2px #F4945D, 0px 0px 0px 4px wheat;
     background-color: antiquewhite;
     position: relative;
@@ -113,6 +114,8 @@ li {
     opacity: 0;
     transition: all .5s ease;
     font-size: 3vw;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
 #break>li:nth-of-type(1)::before {
@@ -192,7 +195,9 @@ li {
     left: 4%;
     background-color: #FEF9B0;
     border: solid 2px #FAF137;
+    -webkit-transition: .5s ease-in;
 
+    -o-transition: .5s ease-in;
     transition: .5s ease-in;
     border-radius: 30px;
     width: 90vw;
@@ -209,7 +214,9 @@ li {
     height: 45vh;
     background-color: lightpink;
     border: solid 2px deeppink;
+    -webkit-transition: .5s ease-in;
 
+    -o-transition: .5s ease-in;
     transition: .5s ease-in;
     border-radius: 30px;
 
@@ -223,7 +230,9 @@ li {
     height: 45vh;
     background-color: skyblue;
     border: solid 2px blue;
+    -webkit-transition: .5s ease-in;
 
+    -o-transition: .5s ease-in;
     transition: .5s ease-in;
     border-radius: 30px;
 }
@@ -284,168 +293,3 @@ li {
 
 
 }
-
-/*#break li {
-    display: inline-block;
-    position: relative;
-    width: 25vw;
-    height: 35vh;
- 
-  
-   
-}
-#break li a:hover {
-    border: solid 1px blue;
-    background-color: #FAF137;
-    border-radius: 10px;
-    
-}
-#break li a {
-    position: relative;
-    font-size: 110%;
-    font-style: oblique;
-    text-decoration: none;
-    font-weight: bold;
-    color: #0B2161;
-    left: 25%;
-    top: 20%;
-}
-
-.break1 {
-    position: relative;
-    width: 20vw;
-    height: 30vh;
-    border-radius: 10px;
-    border: solid 5px #0B2161;
-    top: 4%;
-    
-}
-
-.tabl {
-    position: absolute;
-    width: 10vw;
-    left: 10%;
-  border: solid 2px #FAF137;
-  text-align: center;
-  background-color: #FEF9B0;
-  font-size: 110%;
-    font-style: oblique;
-    text-decoration: none;
-    color: #0B2161;
-    border-radius: 10px;
-    visibility: hidden;
-     opacity: 0;
-}
-
-div {
-   transition: all 2s ease;
-   
-}
-#break>li:hover .tabl {
-     position: absolute;
-   width: 10vw;
-    height: 5vh;
-  border: solid 2px #FAF137;
-  text-align: center;
-  background-color: #FEF9B0;
-  font-size: 110%;
-    font-style: oblique;
-    text-decoration: none;
-    font-weight: bold;
-    color: #0B2161;
-    border-radius: 10px;
-     visibility: visible;
-      opacity: 1;
-       transform: translateY(5);
-      
-}
-
-#lanch li {
-    position: relative;
-    display: inline-block;
-     width: 25vw;
-    height: 50vh;
-    
-   
-}
-#lanch li a:hover {
-    border: solid 1px deeppink;
-    background-color: pink;
-    border-radius: 10px;
-}
-#lanch li a {
-    width: 15vh;
-    height: 5vh;
-    position: absolute;
-   
-    text-align: center;
-    font-size: 110%;
-    font-style: oblique;
-    text-decoration: none;
-    font-weight: bold;
-    color: #0B2161;
-    left: 25%;
-    top: 90%;
-
-    
-}
-#lanch a:hover .tabl2 {
-     position: relative;
-   width: 10vw;
-    height: 5vh;
-  border: solid 2px ;
-  text-align: center;
-  background-color: #FEF9B0;
-  font-size: 110%;
-    font-style: oblique;
-    text-decoration: none;
-    font-weight: bold;
-    color: #0B2161;
-    top: -220%;
-    border-radius: 10px;
-     visibility: visible;
-      opacity: 1;
-     transform: translateY(5);
-}
-.tabl2 {
-    position: relative;
-    width: 20vw;
-  border: solid 2px #FAF137;
-  text-align: center;
-  background-color: #FEF9B0;
-  font-size: 110%;
-    font-style: oblique;
-    text-decoration: none;
-    font-weight: bold;
-    color: #0B2161;
-    border-radius: 10px;
-    visibility: hidden;
-     opacity: 0;
-}
-
-
-
-#dinner>li {
-    display: inline-block;
-    position: relative;
-    width: 10vw;
-    height: 10vh;
-    margin: 9%;
-    top: -10%;
-}
-#dinner li a:hover #tabl {
-    left: 0%;
-    position: absolute;
-    width: 20vw;
-  border: solid 2px #FAF137;
-  text-align: center;
-  background-color: #FEF9B0;
-  font-size: 110%;
-    font-style: oblique;
-    text-decoration: none;
-    font-weight: bold;
-    color: #0B2161;
-    border-radius: 10px;
-    visibility: visible;
-     opacity: 1;
-}*/
