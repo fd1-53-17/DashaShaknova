@@ -1,0 +1,18 @@
+td {
+    padding: 5px 20px 10px 20px;
+    text-decoration: underline;
+    color: blue;
+
+}
+
+table {
+    border-bottom: solid 4px grey;
+
+
+}
+
+td:nth-of-type(4) {
+    background-color: orange;
+    border-bottom-color: orange;
+    color: white;
+}
