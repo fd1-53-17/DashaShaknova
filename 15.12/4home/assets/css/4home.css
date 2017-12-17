@@ -1,0 +1,645 @@
+main {
+    width: 90%;
+    height: 90vh;
+    margin: 5%;
+    position: relative;
+    background-color: bisque;
+    border: 3px solid burlywood;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    left: 0%;
+    background: gold;
+    border-radius: 50%;
+    position: absolute;
+    animation-direction: alternate-reverse;
+    -webkit-animation: 2s ease-out;
+            animation: 2s ease-out;
+    -webkit-animation-name: bouncingball;
+            animation-name: bouncingball;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+
+}
+
+.shadow {
+    width: 30px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: lightgray;
+    position: absolute;
+    top: 88vh;
+    animation-direction: alternate-reverse;
+    -webkit-animation: 2s ease;
+            animation: 2s ease;
+    -webkit-animation-name: shadowball;
+            animation-name: shadowball;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes shadowball {
+    0% {
+        width: 30px;
+        height: 10px;
+        left: 0%;
+        top: 88vh;
+    }
+
+    12% {
+        width: 35px;
+        height: 15px;
+        left: 15%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    15% {
+        width: 35px;
+        height: 15px;
+        left: 15%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    20% {
+        width: 40px;
+        height: 15px;
+        left: 25%;
+        top: 87vh;
+        background-color: silver;
+    }
+    25% {
+        width: 45px;
+        height: 15px;
+        left: 35%;
+        top: 87vh;
+        background-color: grey;
+    }
+    30% {
+        width: 50px;
+        height: 15px;
+        left: 50%;
+        top: 87vh;
+        background-color: grey;
+    }
+    35% {
+        width: 45px;
+        height: 15px;
+        left: 65%;
+        top: 87vh;
+        background-color: grey;
+    }
+    40% {
+        width: 40px;
+        height: 15px;
+        left: 75%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    45% {
+        width: 35px;
+        height: 15px;
+        left: 80%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    50% {
+        width: 30px;
+        height: 10px;
+        left: 90%;
+        top: 88vh;
+
+
+    }
+    55% {
+        width: 35px;
+        height: 15px;
+        left: 80%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    60% {
+        width: 40px;
+        height: 15px;
+        left: 75%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    65% {
+        width: 45px;
+        height: 15px;
+        left: 65%;
+        top: 87vh;
+        background-color: grey;
+
+    }
+    70% {
+        width: 50px;
+        height: 15px;
+        left: 50%;
+        top: 87vh;
+        background-color: grey;
+
+    }
+    75% {
+        width: 45px;
+        height: 15px;
+        left: 35%;
+        top: 87vh;
+        background-color: grey;
+
+    }
+    80% {
+        width: 40px;
+        height: 15px;
+        left: 25%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    85% {
+        width: 35px;
+        height: 15px;
+        left: 20%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    88% {
+        width: 35px;
+        height: 15px;
+        left: 15%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    90% {
+        width: 30px;
+        height: 10px;
+        left: 10%;
+        top: 88vh;
+
+    }
+    95% {
+        width: 30px;
+        height: 10px;
+        left: 5%;
+        top: 88vh;
+
+    }
+    100% {
+        width: 30px;
+        height: 10px;
+        left: 0%;
+        top: 88vh;
+    }
+}
+
+@keyframes shadowball {
+    0% {
+        width: 30px;
+        height: 10px;
+        left: 0%;
+        top: 88vh;
+    }
+
+    12% {
+        width: 35px;
+        height: 15px;
+        left: 15%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    15% {
+        width: 35px;
+        height: 15px;
+        left: 15%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    20% {
+        width: 40px;
+        height: 15px;
+        left: 25%;
+        top: 87vh;
+        background-color: silver;
+    }
+    25% {
+        width: 45px;
+        height: 15px;
+        left: 35%;
+        top: 87vh;
+        background-color: grey;
+    }
+    30% {
+        width: 50px;
+        height: 15px;
+        left: 50%;
+        top: 87vh;
+        background-color: grey;
+    }
+    35% {
+        width: 45px;
+        height: 15px;
+        left: 65%;
+        top: 87vh;
+        background-color: grey;
+    }
+    40% {
+        width: 40px;
+        height: 15px;
+        left: 75%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    45% {
+        width: 35px;
+        height: 15px;
+        left: 80%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    50% {
+        width: 30px;
+        height: 10px;
+        left: 90%;
+        top: 88vh;
+
+
+    }
+    55% {
+        width: 35px;
+        height: 15px;
+        left: 80%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    60% {
+        width: 40px;
+        height: 15px;
+        left: 75%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    65% {
+        width: 45px;
+        height: 15px;
+        left: 65%;
+        top: 87vh;
+        background-color: grey;
+
+    }
+    70% {
+        width: 50px;
+        height: 15px;
+        left: 50%;
+        top: 87vh;
+        background-color: grey;
+
+    }
+    75% {
+        width: 45px;
+        height: 15px;
+        left: 35%;
+        top: 87vh;
+        background-color: grey;
+
+    }
+    80% {
+        width: 40px;
+        height: 15px;
+        left: 25%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    85% {
+        width: 35px;
+        height: 15px;
+        left: 20%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    88% {
+        width: 35px;
+        height: 15px;
+        left: 15%;
+        top: 87vh;
+        background-color: silver;
+
+    }
+    90% {
+        width: 30px;
+        height: 10px;
+        left: 10%;
+        top: 88vh;
+
+    }
+    95% {
+        width: 30px;
+        height: 10px;
+        left: 5%;
+        top: 88vh;
+
+    }
+    100% {
+        width: 30px;
+        height: 10px;
+        left: 0%;
+        top: 88vh;
+    }
+}
+
+
+@-webkit-keyframes bouncingball {
+    0% {
+        width: 50px;
+        height: 50px;
+        left: 0%;
+    }
+    5% {
+        width: 50px;
+        height: 45px;
+        left: 5%;
+        top: 10vh;
+    }
+    10% {
+        width: 50px;
+        height: 40px;
+        left: 10%;
+        top: 20vh;
+    }
+    12% {
+        width: 50px;
+        height: 35px;
+        left: 15%;
+        top: 30vh;
+    }
+    15% {
+        width: 50px;
+        height: 30px;
+        left: 20%;
+        top: 40vh;
+    }
+    20% {
+        width: 50px;
+        height: 25px;
+        left: 25%;
+        top: 50vh;
+    }
+    25% {
+        width: 50px;
+        height: 25px;
+        left: 35%;
+        top: 60vh;
+    }
+    30% {
+        width: 50px;
+        height: 20px;
+        left: 50%;
+        top: 83vh;
+    }
+    35% {
+        width: 50px;
+        height: 25px;
+        left: 65%;
+        top: 60vh;
+    }
+    40% {
+        width: 50px;
+        height: 25px;
+        left: 75%;
+        top: 50vh;
+    }
+    45% {
+        width: 50px;
+        height: 30px;
+        left: 80%;
+        top: 40vh;
+    }
+    50% {
+        width: 50px;
+        height: 40px;
+        left: 90%;
+        top: 20vh;
+    }
+    55% {
+        width: 50px;
+        height: 30px;
+        left: 80%;
+        top: 40vh;
+    }
+    60% {
+        width: 50px;
+        height: 25px;
+        left: 75%;
+        top: 50vh;
+    }
+    65% {
+        width: 50px;
+        height: 25px;
+        left: 65%;
+        top: 60vh;
+    }
+    70% {
+        width: 50px;
+        height: 20px;
+        left: 50%;
+        top: 83vh;
+    }
+    75% {
+        width: 50px;
+        height: 25px;
+        left: 35%;
+        top: 60vh;
+    }
+    80% {
+        width: 50px;
+        height: 25px;
+        left: 25%;
+        top: 50vh;
+    }
+    85% {
+        width: 50px;
+        height: 30px;
+        left: 20%;
+        top: 40vh;
+    }
+    88% {
+        width: 50px;
+        height: 35px;
+        left: 15%;
+        top: 30vh;
+    }
+    90% {
+        width: 50px;
+        height: 40px;
+        left: 10%;
+        top: 20vh;
+    }
+    95% {
+        width: 50px;
+        height: 45px;
+        left: 5%;
+        top: 10vh;
+    }
+    100% {
+        width: 50px;
+        height: 50px;
+        left: 0%;
+    }
+}
+
+
+@keyframes bouncingball {
+    0% {
+        width: 50px;
+        height: 50px;
+        left: 0%;
+    }
+    5% {
+        width: 50px;
+        height: 45px;
+        left: 5%;
+        top: 10vh;
+    }
+    10% {
+        width: 50px;
+        height: 40px;
+        left: 10%;
+        top: 20vh;
+    }
+    12% {
+        width: 50px;
+        height: 35px;
+        left: 15%;
+        top: 30vh;
+    }
+    15% {
+        width: 50px;
+        height: 30px;
+        left: 20%;
+        top: 40vh;
+    }
+    20% {
+        width: 50px;
+        height: 25px;
+        left: 25%;
+        top: 50vh;
+    }
+    25% {
+        width: 50px;
+        height: 25px;
+        left: 35%;
+        top: 60vh;
+    }
+    30% {
+        width: 50px;
+        height: 20px;
+        left: 50%;
+        top: 83vh;
+    }
+    35% {
+        width: 50px;
+        height: 25px;
+        left: 65%;
+        top: 60vh;
+    }
+    40% {
+        width: 50px;
+        height: 25px;
+        left: 75%;
+        top: 50vh;
+    }
+    45% {
+        width: 50px;
+        height: 30px;
+        left: 80%;
+        top: 40vh;
+    }
+    50% {
+        width: 50px;
+        height: 40px;
+        left: 90%;
+        top: 20vh;
+    }
+    55% {
+        width: 50px;
+        height: 30px;
+        left: 80%;
+        top: 40vh;
+    }
+    60% {
+        width: 50px;
+        height: 25px;
+        left: 75%;
+        top: 50vh;
+    }
+    65% {
+        width: 50px;
+        height: 25px;
+        left: 65%;
+        top: 60vh;
+    }
+    70% {
+        width: 50px;
+        height: 20px;
+        left: 50%;
+        top: 83vh;
+    }
+    75% {
+        width: 50px;
+        height: 25px;
+        left: 35%;
+        top: 60vh;
+    }
+    80% {
+        width: 50px;
+        height: 25px;
+        left: 25%;
+        top: 50vh;
+    }
+    85% {
+        width: 50px;
+        height: 30px;
+        left: 20%;
+        top: 40vh;
+    }
+    88% {
+        width: 50px;
+        height: 35px;
+        left: 15%;
+        top: 30vh;
+    }
+    90% {
+        width: 50px;
+        height: 40px;
+        left: 10%;
+        top: 20vh;
+    }
+    95% {
+        width: 50px;
+        height: 45px;
+        left: 5%;
+        top: 10vh;
+    }
+    100% {
+        width: 50px;
+        height: 50px;
+        left: 0%;
+    }
+}
