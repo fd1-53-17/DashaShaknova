@@ -1,0 +1,14 @@
+@red: #FF0000;
+ 
+body {
+    color: black;
+    background-color: @red - #111;
+    
+}
+.border(@br, @bw, @bs, @bc) {
+    border: @bw @bs @bc;
+    border-radius: @br;
+}
+[type=button] {
+    .border(12px, 5px, dashed, green);
+}

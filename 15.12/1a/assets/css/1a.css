@@ -1,0 +1,9 @@
+body {
+  color: black;
+  background-color: #ee0000;
+}
+
+[type=button] {
+  border: 5px dashed green;
+  border-radius: 12px;
+}
