@@ -1,0 +1,50 @@
+.div {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 50px;
+    box-shadow: 0 0 0 7px black, 0 0 0 11px white, 0 0 0 19px black, 0 0 0 31px white, 0 0 0 37px black, 0 0 0 43px white, 0 0 0 50px black;
+}
+
+.lefttop {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 104px;
+    left: -1px;
+}
+
+.leftbottom {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    transform: rotate(-90deg);
+    top: -99px;
+    left: -1px;
+}
+
+.rightbottom {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    transform: rotate(180deg);
+    left: 396px;
+    top: -100px;
+}
+
+.righttop {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    transform: rotate(90deg);
+    left: 242px;
+    top: -451px;
+}
+
+.z1 {
+    z-index: 20;
+}
+
+.z2 {
+    z-index: 10px
+}
